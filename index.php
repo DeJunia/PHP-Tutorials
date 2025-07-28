@@ -31,6 +31,7 @@
   $area = pi() * pow($radius, 2);
   $area = round($area, 2);
   $volume = 4/3 * pi() * pow($radius, 3);
+  $volume = round($volume, 2);
 
   echo "Circumference = {$circumference}cm  <br>";
   echo "Area = {$area}cm<sup>2</sup> <br>";
