@@ -1,3 +1,22 @@
+/*
+  isset() = Returns True if a variable is declared and not null;
+  empty() = Returns True if a variable is not declared, false, null;
+*/
+
+<?php 
+ $username = "";
+ $password = null;
+
+ echo isset($username) . "<br>";
+ echo empty($password) . "<br>";
+
+ if (isset($username)) {
+    echo "Variable is set <br>"; 
+ } else {
+  echo "Varaible is not set <br>";
+ }
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
